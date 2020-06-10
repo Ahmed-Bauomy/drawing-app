@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    color: white;
+}
+section{
+    background-color: black;
+    width: auto;
+    height: 60px;
+    display: -webkit-box;
+    padding: 10px;
+}
+section div {
+    width: 50%;
+    color: white;
+    padding: 20px;
+
+    display: -webkit-box;
+    -webkit-box-flex: 1;
+}
+label{
+    border-radius: 100%;
+    padding: 15px;
+    margin: 7px;
+}
+span{
+    box-shadow: yellow 5px 5px 10px inset,red -5px -5px 10px inset;
+    margin: 10px;
+    border: 2px red solid;
+    padding: 7px;
+    border-radius: 100%;   
+}
+.save{
+   margin-left: 250px;
+}
+.pointer:hover{
+    box-shadow: red 5px 5px 10px inset,yellow -5px -5px 10px inset;
+    cursor: pointer;
+}
+p{
+    font: bold 15px tahoma;
+}
+
+.Colors{
+    /*margin-left: 300px;
+    float: right;*/
+    padding: 5px;
+}
+.choosenColor{
+    border: 3px solid white;
+}
+input{
+    border-radius: 50%;
+    margin-left: 100px;
+    border: 1px solid violet;
+    width: 50px;
+    height: 50px;
+}
+
+#showImage{
+    color: white;
+    padding: 50px;
+    
+}
+canvas{
+   /* width: 1345px;
+    height: 500px;
+   
+    display: block;*/
+
+}
